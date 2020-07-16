@@ -1,0 +1,17 @@
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 80rem;
+}
