@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #cac4b0, #fec7d7);
+    height: 96.7vh;
+}
+
+#main-heading,
+#about-heading,
+#practicals-heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-heading {
+    color: #0e172c;
+    background-color: yellowgreen;
+    padding: 0.6rem;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#about-heading,
+#practicals-heading {
+    border-left: 4px solid black;
+}
+
+#about-heading {
+    display: inline-block;
+    background-color: rgba(255, 99, 71, 0.404);
+    padding: 0.3rem;
+}
+
+#practicals-heading {
+    display: inline-block;
+    background-color: rgba(255, 99, 71, 0.404);
+    padding: 0.6rem;
+}
+
+p,
+#main-list li,
+#main-list a {
+    font-family: 'Space Mono', monospace;
+}
+
+#main-list li {
+    line-height: 2.5rem;
+}
+
+#main-list a {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0.2rem;
+    text-decoration: none;
+}
