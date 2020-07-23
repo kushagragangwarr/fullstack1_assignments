@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: 'Red Rose', cursive;
+}
+
+.img-container {
+    text-align: center;
+    margin: 3rem;
+}
+
+.para-container {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgba(228, 217, 217, 0.555);
+}
+
+.yellow {
+    border-top: 2px solid rgb(224, 224, 4);
+}
+
+.blue {
+    border-top: 2px solid skyblue;
+}
+
+.orange {
+    border-top: 2px solid orange;
+}
+
+.purple {
+    border-top: 2px solid purple;
+}
