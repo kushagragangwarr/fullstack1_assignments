@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    padding: 0.7rem;
+    text-align: center;
+    --bottom-margin: 0.7rem;
+}
+
+#navbar {
+    color: white;
+    background-color: gray;
+    padding: 1.5rem;
+    margin-bottom: var(--bottom-margin);
+}
+
+#banner {
+    color: white;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: var(--bottom-margin);
+}
+
+
+/* section team starts */
+
+#team {
+    margin-bottom: 1.5rem;
+}
+
+#team h1,
+#projects h1,
+#section3 h1 {
+    margin-bottom: 20px;
+}
+
+#team-members div {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 0px 30px 20px 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: rgb(207, 207, 78);
+}
+
+
+/* section team ends */
+
+
+/* section project starts */
+
+#project-desc {
+    display: flex;
+}
+
+#main-content {
+    color: white;
+    height: 600px;
+    width: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+}
+
+#project-container {
+    width: 50%;
+    margin-left: 14px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: orangered;
+}
+
+
+/* section project ends */
+
+
+/* section 3 starts */
+
+#reading-articles div {
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: rgb(128, 218, 68);
+    margin-bottom: 4rem;
+}
+
+
+/* section 3 ends */
+
+
+/* footer starts */
+
+#footer h2 {
+    margin-bottom: 1rem;
+}
+
+#footer div {
+    color: white;
+    background-color: plum;
+    padding: 1.5rem;
+}
+
+
+/* footer ends */
