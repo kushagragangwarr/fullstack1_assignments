@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    padding: 0.7rem;
+    text-align: center;
+    --bottom-margin: 0.7rem;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    margin-bottom: var(--bottom-margin);
+    background-color: rgb(58, 56, 56);
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* #navbar ul li {
+    width: 150px;
+} */
+
+#navbar ul li a {
+    font-size: 1.2rem;
+    padding: 32px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(219, 218, 218);
+    color: black;
+}
+
+#banner {
+    padding: 1rem;
+    font-size: x-large;
+    text-align: left;
+    color: white;
+    height: 87vh;
+    background: url("/assign8/images/emile-perron-xrVDYZRGdw4-unsplash.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: var(--bottom-margin);
+}
+
+
+/* section team starts */
+
+#team {
+    margin-bottom: 1.5rem;
+}
+
+#team h1,
+#projects h1,
+#section3 h1 {
+    margin-bottom: 20px;
+}
+
+#team-members div {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 0px 30px 20px 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#team-members div img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/* section team ends */
+
+
+/* section project starts */
+
+#project-desc {
+    display: flex;
+}
+
+#main-content {
+    text-align: left;
+    color: white;
+    height: 700px;
+    width: 50%;
+    background-color: gray;
+    margin-right: 14px;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+#main-content::-webkit-scrollbar {
+    display: none;
+}
+
+#main-content p {
+    font-size: large;
+}
+
+#project-container {
+    width: 50%;
+    margin-left: 14px;
+}
+
+#article1 {
+    background: url("/assign8/images/p1.jpg") no-repeat;
+    background-size: 100% 200%;
+}
+
+#article2 {
+    background: url("/assign8/images/p2.jpeg") no-repeat;
+    background-size: 100% 200%;
+}
+
+#article3 {
+    background: url("/assign8/images/p3.jpg") no-repeat;
+    background-size: 100% 200%;
+}
+
+.articles {
+    height: 213.4px;
+    margin-bottom: 30px;
+}
+
+
+/* section project ends */
+
+
+/* section 3 starts */
+
+#section3 h1 {
+    margin-bottom: 2rem;
+}
+
+#reading-articles div {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.container h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 200;
+}
+
+.container {
+    border: none;
+    border-radius: 6px;
+    height: 500px;
+    width: 400px;
+    margin: 0 2rem 2.5rem 3rem;
+    padding: 15px;
+    background: linear-gradient(to left, #ffffff, #f6f8fa);
+    box-shadow: 2px 2px 8px rgba(151, 139, 139, 0.479), -2px -2px 4px rgba(160, 148, 148, 0.479);
+}
+
+.container img {
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: 12rem;
+}
+
+.container a {
+    display: block;
+    background-color: red;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.7s;
+    font-family: 'Red Rose', cursive;
+}
+
+.container p {
+    font-family: 'Red Rose', cursive;
+}
+
+.container a:hover {
+    background-color: blue;
+}
+
+.container h2,
+.container p,
+.container img {
+    margin-bottom: 14px;
+}
+
+
+/* section 3 ends */
+
+
+/* footer starts */
+
+#footer h1 {
+    margin-bottom: 1rem;
+}
+
+#footer div {
+    background-color: plum;
+    padding: 1.5rem;
+}
+
+#footer div p {
+    font-size: 1.4rem;
+}
+
+
+/* footer ends */
