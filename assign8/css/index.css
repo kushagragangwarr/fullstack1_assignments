@@ -54,7 +54,7 @@ body {
     text-align: left;
     color: white;
     height: 87vh;
-    background: url("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg") no-repeat;
+    background: url("../../assign8/images/emile-perron-xrVDYZRGdw4-unsplash.jpg") no-repeat;
     background-size: 100% 100%;
     margin-bottom: var(--bottom-margin);
 }
@@ -121,17 +121,17 @@ body {
 }
 
 #article1 {
-    background: url("../images/p1.jpg") no-repeat;
+    background: url("../../assign8/images/p1.jpg") no-repeat;
     background-size: 100% 200%;
 }
 
 #article2 {
-    background: url("../images/p2.jpeg") no-repeat;
+    background: url("../../assign8/images/p2.jpeg") no-repeat;
     background-size: 100% 200%;
 }
 
 #article3 {
-    background: url("../images/p3.jpg") no-repeat;
+    background: url("../../assign8/images/p3.jpg") no-repeat;
     background-size: 100% 200%;
 }
 
