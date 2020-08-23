@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: rgb(29, 14, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+#header h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sidebar {
+    display: flex;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    position: fixed;
+    top: 80px;
+    background-color: rgb(29, 14, 44);
+    width: 230px;
+    height: 91.5vh;
+    text-align: center;
+    left: -100%;
+    transition: .7s;
+}
+
+#sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    transition: .2s;
+}
+
+#sidebar ul li a:hover {
+    border-left: 8px solid gray;
+}
+
+#toggle {
+    visibility: hidden;
+}
+
+#bars,
+#times {
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: xx-large;
+    color: white;
+}
+
+#times {
+    display: none;
+}
+
+#toggle:checked~ul {
+    left: 0;
+}
+
+#toggle:checked~#times {
+    display: block;
+}
+
+#toggle:checked~#bars {
+    display: none;
+}
+
+#toggle:checked~#content {
+    width: 80%;
+}
+
+#brand img {
+    height: 80px;
+    width: 80px;
+}
+
+#social {
+    word-spacing: 60px;
+    font-size: large;
+    margin-top: 380px;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-google-plus {
+    color: red;
+}
+
+.fa-linkedin {
+    color: skyblue;
+}
+
+#content {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#content p {
+    text-align: left;
+}
+
+#content img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+    #sidebar ul {
+        width: 100%;
+    }
+    #header h2 {
+        display: none;
+    }
+    #social {
+        margin-top: 340px;
+    }
+}
