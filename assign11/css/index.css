@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+table {
+    border-spacing: 0;
+    text-align: left;
+    margin-top: 100px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid darkslateblue;
+    padding: 0;
+    height: 600px;
+    border-radius: 5px;
+}
+
+tbody tr th:nth-child(1) {
+    width: 50px;
+    text-align: center;
+}
+
+tbody tr td:nth-child(1) {
+    width: 50px;
+    text-align: center;
+}
+
+tbody tr th:nth-child(2) {
+    width: 1050px;
+}
+
+tbody tr:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+thead {
+    text-align: center;
+    color: white;
+    background-color: darkslateblue;
+}
+
+thead tr th {
+    padding: .5rem;
+}
+
+tbody tr td:nth-child(4) {
+    color: green;
+}
+
+tbody tr td:nth-child(5) {
+    letter-spacing: 5px;
+}
+
+tbody tr:nth-last-child(1) td:nth-child(4) {
+    color: red;
+}
+
+tbody tr td i.fa {
+    font-size: 23px !important;
+    cursor: pointer;
+}
+
+tbody tr td i:first-child:hover {
+    color: blue;
+}
+
+tbody tr td i:nth-child(2):hover {
+    color: red;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+i {
+    color: gray;
+}
+
+tbody th {
+    border-bottom: 3px solid gray;
+}
