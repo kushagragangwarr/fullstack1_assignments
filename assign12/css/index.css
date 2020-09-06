@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: large;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    background-color: coral;
+}
+
+h1 {
+    font-size: xx-large;
+    width: 90%;
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 5px solid whitesmoke;
+    height: 700px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+thead tr th {
+    padding: 10px;
+    font-size: xx-large !important;
+    word-spacing: 10px;
+    border-right: 5px solid whitesmoke;
+    color: navy;
+}
+
+tbody tr td {
+    border-right: 5px solid whitesmoke;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+tbody tr:nth-child(1) td {
+    font-size: x-large;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e1f1c2;
+}
+
+.basic {
+    background-color: #c1dcb7;
+}
+
+.plus {
+    background-color: #badc68;
+}
+
+.pro {
+    background-color: #bbd3dc;
+}
+
+.proplus {
+    background-color: rgb(219, 187, 126);
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
