@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Hind', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient( circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(224, 224, 224) 90%);
+}
+
+a,
+#signin-card p {
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#form-container {
+    margin-top: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-card,
+#signup-card,
+#signin-card {
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    width: 500px;
+    height: 600px;
+    margin: 0px 20px 30px 20px;
+    box-shadow: 4px 4px 4px rgba(211, 202, 202, 0.459), -1px -1px 4px rgba(167, 154, 154, 0.473);
+}
+
+i {
+    font-size: x-large !important;
+    text-shadow: 3px 3px 4px black;
+    transition: .5s;
+}
+
+.links {
+    word-spacing: 30px;
+    cursor: pointer;
+}
+
+i:hover {
+    text-shadow: none;
+}
+
+.fa-twitter:hover {
+    color: rgb(19, 167, 226) !important;
+}
+
+.fa-facebook:hover {
+    color: rgb(15, 15, 128) !important;
+}
+
+.fa-instagram:hover {
+    background: -webkit-linear-gradient(orange, rgb(218, 59, 85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#login-top {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(255, 197, 61, 1) 0%, rgba(255, 94, 7, 1) 90%);
+    line-height: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#login-top h1 {
+    text-shadow: 1px 1px 3px black;
+}
+
+#login-top h1,
+#login-top i {
+    color: white;
+}
+
+#login-bottom {
+    height: 280px;
+    position: relative;
+    margin-top: 80px;
+    padding: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    font-family: 'Abel', sans-serif;
+    font-size: large;
+    border: 0;
+    outline: 0;
+    padding: 15px 15px 15px 0px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+#login-footer-text,
+#signup-footer-text {
+    color: gray;
+}
+
+#forgot {
+    color: gray;
+    float: right;
+}
+
+#login-footer,
+#signup-footer,
+#signin-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#login-footer span {
+    margin-left: 24px;
+    font-family: 'Abel', sans-serif;
+}
+
+#login-footer button,
+#signup-footer button,
+#signin-footer button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: large;
+    width: 120px;
+    border: 0;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px rgb(119, 114, 114);
+    transition: .4s;
+}
+
+#login-footer button:hover,
+#signup-footer button:hover,
+#signin-footer button:hover {
+    box-shadow: none;
+}
+
+#black {
+    color: black;
+}
+
+#signup-card {
+    position: relative;
+    padding-top: 10px;
+}
+
+#signup-card h1 {
+    color: rgb(206, 21, 113);
+}
+
+#signup-middle {
+    height: 280px;
+    position: relative;
+    margin-top: 35px;
+    padding: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+input[type="checkbox"] {
+    padding: 0;
+    width: auto;
+    float: left;
+    margin-right: 0;
+    display: inline;
+    cursor: pointer;
+}
+
+#checkbox {
+    margin-top: 40px;
+}
+
+#checkbox span {
+    position: absolute;
+    left: 50px;
+    top: 184px;
+    color: gray;
+}
+
+#checkbox a {
+    color: rgb(7, 162, 223);
+}
+
+#signup-footer button {
+    background-color: rgb(206, 21, 113);
+}
+
+#signup-footer span {
+    margin-left: 44px;
+    font-family: 'Abel', sans-serif;
+}
+
+#signup-footer {
+    bottom: -40px;
+}
+
+#signup-footer a {
+    color: rgb(7, 162, 223);
+}
+
+#link-box {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(66, 96, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link-box .links {
+    color: white;
+}
+
+#signin-card {
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+#signin-footer {
+    width: 100%;
+    position: relative;
+}
+
+#signin-footer button {
+    background: linear-gradient(120deg, rgb(132, 204, 233), rgb(8, 8, 128)) !important;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+
+#signin-forgot {
+    float: right;
+    color: rgb(21, 92, 224);
+}
+
+#signin-card .links {
+    margin-top: 20px;
+    word-spacing: 20px;
+    color: rgb(0, 137, 250);
+}
+
+#signin-card i {
+    text-shadow: none;
+}
+
+#signin-card .links span {
+    border-radius: 50px;
+    box-shadow: -2px 2px 4px rgb(213, 213, 236);
+    padding: 20px;
+    width: 120px;
+    display: inline-block;
+    transition: .4s;
+}
+
+#signin-card .links span:hover {
+    box-shadow: none;
+}
+
+@media (max-width: 600px) {
+    #form-container {
+        margin-top: 50px;
+    }
+    #login-card,
+    #signup-card,
+    #signin-card {
+        width: 450px;
+        height: 550px;
+    }
+    #signup-middle {
+        margin-top: 15px;
+    }
+}
