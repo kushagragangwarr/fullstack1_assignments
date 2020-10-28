@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+button {
+    outline: 0;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 0;
+    background-color: black;
+    color: white;
+    width: 50px;
+    font-size: x-large;
+}
+
+button:active {
+    outline: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+span {
+    font-size: xx-large;
+}
+
+.disabled {
+    opacity: 0.3;
+}
