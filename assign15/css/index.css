@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
 }
 
 h1 {
@@ -30,7 +31,7 @@ button {
 
 button:active {
     outline: 1px solid black;
-    background-color: white;
+    background-color: blanchedalmond;
     color: black;
 }
 
