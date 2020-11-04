@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, rgb(99, 97, 97), black);
+    height: 85vh;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1.5rem;
+    color: whitesmoke;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+#input-container {
+    margin-bottom: 5.3rem;
+}
+
+#input-box {
+    border: 0;
+    background-color: thistle;
+    outline: 0;
+    padding: .7rem;
+    width: 15rem;
+}
+
+#add-btn {
+    border: 0;
+    outline: 0;
+    padding: .7rem;
+    width: 3rem;
+    cursor: pointer;
+    background-color: rgb(65, 225, 225);
+}
+
+#add-btn:hover {
+    background-color: rgb(149, 147, 0);
+}
+
+ul {
+    list-style-type: none;
+}
+
+#check,
+#delete {
+    padding: .9rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+#check {
+    background-color: greenyellow;
+}
+
+#check:hover {
+    background-color: rgba(172, 255, 47, 0.384);
+}
+
+#delete {
+    background-color: orangered;
+}
+
+#delete:hover {
+    background-color: rgba(255, 68, 0, 0.527);
+}
+
+.item-container {
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+li {
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    padding: .7rem;
+    width: 12rem;
+}
+
+.check {
+    opacity: .5;
+}
+
+.line {
+    text-decoration: line-through;
+}
