@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Titillium+Web:wght@300&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: gainsboro;
+    font-family: "Oswald", sans-serif;
+}
+
+form {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+input {
+    font-size: medium;
+    outline: 0;
+    background-color: whitesmoke;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    padding: 15px;
+    font-size: large;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    background-color: cadetblue;
+    transition: .5s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(68, 109, 110);
+}
+
+i {
+    position: absolute;
+    top: 21px;
+    right: 10px;
+}
+
+.container {
+    width: 40%;
+    box-shadow: 3px 3px 12px rgb(70, 69, 69);
+}
+
+
+.input-container {
+    position: relative;
+}
+
+.success {
+    border-bottom: 2px solid rgb(46, 194, 46);
+}
+
+.success-check {
+    font-weight: bold;
+    color: rgb(46, 194, 46);
+}
+
+.fail {
+    border-bottom: 2px solid red;
+}
+
+.fail-cross {
+    font-weight: bold;
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.block {
+    margin-bottom: 30px;
+}
