@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 19</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="step-btns">
+            <button id="step1" class="step-btn form1">Step 1</button>
+            <button id="step2" class="step-btn form2">Step 2</button>
+            <button id="step3" class="step-btn form3">Step 3</button>
+        </div>
+        <hr>
+        <div id="forms">
+            <form action="" id="main-form">
+                <div id="form1" class="form active">
+                    <h2>CREATE ACCOUNT</h2>
+                    <input type="email" name="email" placeholder="Enter email" autofocus><br>
+                    <input type="password" name="password1" placeholder="Enter password"><br>
+                    <input type="password" name="password2" placeholder="Enter password again"><br>
+                    <button id="step1-next-btn">Next</button>
+                </div>
+                <div id="form2" class="form hide">
+                    <h2>SOCIAL LINKS</h2>
+                    <input type="text" name="mediumlink" placeholder="Medium" autofocus><br>
+                    <input type="text" name="githublink" placeholder="Github"><br>
+                    <input type="text" name="linkedinlink" placeholder="Linkedin"><br>
+                    <button id="step2-back-btn">Back</button>
+                    <button id="step2-next-btn">Next</button>
+                </div>
+                <div id="form3" class="form hide">
+                    <h2>PERSONAL INFORMATION</h2>
+                    <input type="text" name="fname" placeholder="First Name" autofocus><br>
+                    <input type="text" name="lname" placeholder="Last Name"><br>
+                    <input type="tel" name="number" placeholder="Mobile Number"><br>
+                    <button id="step3-back-btn">Back</button>
+                    <button id="submit-btn" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    width: 25%;
+    box-shadow: 2px 3px 30px rgb(0, 0, 0);
+}
+
+#step-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#step-btns button {
+    outline: 0;
+    background-color: white;
+    font-size: large;
+    border: 0;
+    cursor: pointer;
+    padding: 20px 58px;
+    transition: .4s;
+}
+
+#step-btns button:hover {
+    color: white;
+    background-color: rgb(255, 0, 128);
+}
+
+#forms {
+    background-color: whitesmoke;
+}
+
+input {
+    font-size: medium;
+    outline: 0;
+    background-color: whitesmoke;
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.form {
+    text-align: center;
+}
+
+h2 {
+    padding: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+#step1-next-btn,
+#step2-next-btn,
+#step2-back-btn,
+#step3-back-btn,
+#submit-btn {
+    background-color: rgb(255, 0, 128);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: medium;
+    margin: 30px;
+    padding: 15px 40px;
+    transition: .4s;
+}
+
+#step1-next-btn:hover,
+#step2-next-btn:hover,
+#step2-back-btn:hover,
+#step3-back-btn:hover,
+#submit-btn:hover {
+    background-color: hotpink;
+    transform: translateY(-10px);
+}
