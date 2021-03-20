@@ -1,0 +1,67 @@
+#main {
+    text-align: center;
+    margin: 30px;
+}
+
+.active {
+    color:red !important;
+}
+
+.navbar {
+    border-bottom: 2px solid rgb(224, 224, 224);
+    font-size: 20px;
+    font-weight: 500 !important;
+}
+
+.navbar-nav a:hover {
+    background-color: rgb(233, 232, 232) !important;
+}
+
+.navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.navbar-nav a {
+    padding: 20px !important;
+}
+
+.navbar-brand {
+    color: red !important;
+    margin-left: 250px;
+    font-size: 30px;
+}
+
+.search-btn {
+    margin-right: 250px;
+}
+
+#card {
+    width: 30% !important;
+}
+
+.card-img-top {
+    height: 270px;
+}
+
+.border {
+    border-top: 3px solid red !important;
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-text a {
+    color: red;
+}
+
+.card {
+    box-shadow: 3px 3px 15px rgb(195, 191, 191);
+}
+
+.row {
+    margin: 50px;
+    margin-right: 100px;
+}
